@@ -1,0 +1,45 @@
+body{
+    background-color: #3F0071;
+    color: #FB2576;
+    font-size: 35px;
+}
+
+
+
+table{
+    margin-top: 5%;
+    width: 100%;
+    text-align: center;
+    font-family: Cursive;
+
+    transition-duration: 1s;
+    background: rgba(255, 255, 255, 0.21);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+
+}
+.image1,
+.image2{
+width: 300px;
+height: 300px;
+margin-left: 350px;
+margin-top: 10px;
+background: rgba(255, 255, 255, 0.74);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+border: 1px solid rgba(255, 255, 255, 1);
+transition-duration: 1s;
+}
+
+.image2:hover{
+    width: 320px;
+    height: 320px;
+}
+.image1:hover{
+    width: 320px;
+    height: 320px;
+}
